@@ -1,0 +1,354 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <link rel="icon" href="../images/favicon.png">
+    <title>个人中心</title>
+    <!-- <link href="https://necolas.github.io/normalize.css/8.0.0/normalize.css" rel="stylesheet"> -->
+    <!-- Bootstrap -->
+    <!-- <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"> -->
+
+    <!-- HTML5 shim 和 Respond.js 是为了让 IE8 支持 HTML5 元素和媒体查询（media queries）功能 -->
+    <!-- 警告：通过 file:// 协议（就是直接将 html 页面拖拽到浏览器中）访问页面时 Respond.js 不起作用 -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!--begin::Web font -->
+    <!-- <script src="../js/Metronic/webfont.js"></script>
+    <script>
+      WebFont.load({
+        google: {
+          "families": ["Poppins:300,400,500,600,700", "Roboto:300,400,500,600,700"]
+        },
+        active: function() {
+          sessionStorage.fonts = true;
+        }
+      });
+    </script> -->
+
+    <!--end::Web font -->
+
+    <!--begin::Base Styles -->
+    <link href="../css/Metronic/vendors.bundle.css" rel="stylesheet" type="text/css" />
+
+    <!--RTL version:<link href="../../assets/vendors/base/vendors.bundle.rtl.css" rel="stylesheet" type="text/css" />-->
+    <link href="../css/Metronic/style.bundle.css" rel="stylesheet" type="text/css" />
+
+    <!--RTL version:<link href="../../assets/demo/default/base/style.bundle.rtl.css" rel="stylesheet" type="text/css" />-->
+
+    <!--begin::Page Vendors -->
+    <link href="../css/Metronic/fullcalendar.bundle.css" rel="stylesheet" type="text/css" />
+
+    <!--RTL version:<link href="assets/vendors/custom/fullcalendar/fullcalendar.bundle.rtl.css" rel="stylesheet" type="text/css" />-->
+
+    <!--end::Page Vendors -->
+
+    <!--end::Base Styles -->
+    <link rel="shortcut icon" href="../img/logo/favicon.ico" />
+
+    
+
+    <style type="text/css">
+
+    
+      .icon {
+         width: 1em; height: 1em;
+         vertical-align: -0.15em;
+         fill: currentColor;
+         overflow: hidden;
+      }
+      body{
+        background-color: #f8f8f8;
+        padding-bottom: 1.5rem;
+      }
+      
+
+      /*  我的 article head  */
+      .row div.col-xs-4 img{
+        width: 8rem;
+        margin: 1rem 1rem;
+      }
+       .row div.col-xs-8 h5{
+        padding-top: 1rem;
+      }
+      .xiugai-btn{
+        color: #333;
+        background-color: #f5f5f5;
+        border-color: #3cfa12;
+
+        padding: 0rem 2rem;
+      }
+      .xiugai-btn-1{
+        color: #333;
+        background-color: #f5f5f5;
+        border-color: #3cfa12;
+
+        padding: 0rem 1rem;
+      }
+      .row div.col-xs-9 h5{
+        margin-left: 2rem;
+      }
+      .qianming{
+        margin-left: 3.4rem;
+        margin-bottom: 0.2rem;
+
+      }
+      .row{
+        background-color: white;
+      }
+      .iconword{
+
+        font-size:1rem;
+        line-height: 1rem;
+        margin-top: 2rem;
+      }
+      .svg_1{
+        float:left;
+        font-size:2rem;
+        margin-top: 1rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+      }
+        .icon-v-center{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        padding-right: 0rem;
+        margin: auto;
+      }
+
+      .qiaodao-btn{
+        margin-right: 3px;
+        height: 3.8rem;
+        line-height: 2rem;
+        /*margin-top: 1rem;*/
+      }
+
+      .svg{
+        font-size: 5rem;
+      }
+
+      .ability{
+        margin-top: 0rem;
+      }
+
+      .svg-center{
+        text-align: center;
+        margin: auto;
+
+       }
+      .row-svg{
+        margin-top:10rem;
+        margin: auto;
+      }
+    .bgcolor{
+      background-color: #2aa094
+    }
+
+
+
+
+     </style>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light navnav" style="background-color:#d6ebe9;">
+      <a class="navbar-brand" href="#">拼滴滴</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon navnav"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="HomePage.html">主页<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="dingdan.html">订单</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="gerenzhongxin.html">个人中心</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="text" aria-label="搜索">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">搜索</button>
+        </form>
+      </div>
+    </nav>
+
+
+    <article>
+     <div class="container">
+      <div class="row row-svg">
+        <div class="col-xs-4 icon-v-center">
+          <img src="../images/头像.png" alt="头像">
+        </div>
+        <div class="col-xs-8" style="margin: auto;">
+          <div class="row"><h5 style="margin: auto;">180***1548</h5></div>
+          <div class="row"><button class="btn btn-default xiugai-btn">修改个人资料</button></div>
+        </div>
+      </div>
+      <br>
+
+        <div class="row row-svg">
+          <div class="col-xs-4  icon-v-center">
+              <span class="svg_1">
+                  <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-yue"></use>
+                  </svg>
+               </span>
+          <p class="iconword">我的余额：***</p>
+          </div>
+          <div class="col-xs-4 icon-v-center">
+            <span class="svg_1">
+          </span>
+          </div>
+          <div class="col-xs-2">
+            <button class="btn btn-success qiaodao-btn">充值</button>&nbsp;
+            <button class="btn qiaodao-btn">提现</button>
+          </div>
+        </div>
+      </div>
+
+      <br>
+      <div class="container">
+         <div class="row row-svg">
+            <div class="col-xs-4 svg-center">
+             <div class="row">
+                <div class="col-12"><span class="svg">
+                  <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-qianbao"></use>
+                  </svg></span>
+                </div>
+              </div>
+              <div class="row">
+                 <div class="col-12 "><span><a href="wallet.html">我的钱包</a></span></div>
+              </div>
+            </div>
+           <div class="col-xs-4 svg-center">
+             <div class="row">
+                <div class="col-12"><span class="svg">
+                  <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-dingdan"></use>
+                  </svg></span>
+                </div>
+              </div>
+              <div class="row">
+                 <div class="col-12"><span><a href="lishidingdan.html">历史订单</a></span></div>
+              </div>
+            </div>
+            <div class="col-xs-4 svg-center">
+             <div class="row">
+                <div class="col-12"><span class="svg">
+                  <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-huiyuan"></use>
+                  </svg></span>
+                </div>
+              </div>
+              <div class="row">
+                 <div class="col-12 "><span><a href="#">我的会员</a></span></div>
+              </div>
+            </div>
+          </div>
+         <div class="row row-svg">
+            <div class="col-xs-4 svg-center">
+             <div class="row">
+                <div class="col-12"><span class="svg">
+                  <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-kefu"></use>
+                  </svg></span>
+                </div>
+              </div>
+              <div class="row">
+                 <div class="col-12 "><span><a href="#">我的客服</a></span></div>
+              </div>
+            </div>
+           <div class="col-xs-4 svg-center">
+             <div class="row">
+                <div class="col-12"><span class="svg">
+                  <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-anquan-"></use>
+                  </svg></span>
+                </div>
+              </div>
+              <div class="row">
+                 <div class="col-12 "><span><a href="anquanxinxi.html">安全信息</a></span></div>
+              </div>
+            </div>
+            <div class="col-xs-4 svg-center">
+             <div class="row">
+                <div class="col-12"><span class="svg">
+                  <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-tousu"></use>
+                  </svg></span>
+                </div>
+              </div>
+              <div class="row">
+                 <div class="col-12 "><span><a href="tousuyonghu.html">投诉用户</a></span></div>
+              </div>
+            </div>
+          </div>
+         <div class="row row-svg">
+            <div class="col-xs-4 svg-center">
+             <div class="row">
+                <div class="col-12"><span class="svg">
+                  <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-yaoqing"></use>
+                  </svg></span>
+                </div>
+              </div>
+              <div class="row">
+                 <div class="col-12 "><span><a href="yaoqinghaoyou.html">邀请好友</a></span></div>
+              </div>
+            </div>
+           <div class="col-xs-4 svg-center">
+             <div class="row">
+                <div class="col-12"><span class="svg">
+                  <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-shezhi"></use>
+                  </svg></span>
+                </div>
+              </div>
+              <div class="row">
+                 <div class="col-12 "><span><a href="#">个人设置</a></span></div>
+              </div>
+            </div>
+            <div class="col-xs-4 svg-center">
+             <div class="row">
+                <div class="col-12"><span class="svg">
+                  <svg class="icon" aria-hidden="true">
+                    <!-- <use xlink:href="#icon-shezhi"></use> -->
+                  </svg></span>
+                </div>
+              </div>
+              <div class="row">
+                 <div class="col-12 "><span></span></div>
+              </div>
+            </div>
+          </div>
+       </div>
+    </article>
+
+    <!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->
+<!--     <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script> -->
+    <!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
+<!--     <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+    <!-- 引入iconfont字体图标-->
+    <script src="../fonts/icons/font_1303513_ns9unij1uk/iconfont.js"></script>
+    
+    <script src="../js/Metronic/vendors.bundle.js" type="text/javascript"></script>
+<!--     <script src="../js/Metronic/scripts.bundle.js" type="text/javascript"></script>
+    <script src="../js/Metronic/bootstrap-datepicker.js" type="text/javascript"></script>
+    <script src="../js/Metronic/bootstrap-timepicker.js" type="text/javascript"></script>
+    <script src="../js/Metronic/bootstrap-datetimepicker.js" type="text/javascript"></script>
+    <script src="../js/Metronic/fullcalendar.bundle.js" type="text/javascript"></script>
+    <script src="../js/Metronic/dashboard.js" type="text/javascript"></script> -->
+  </body>
+</html>

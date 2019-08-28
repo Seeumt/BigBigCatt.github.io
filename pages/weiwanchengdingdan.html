@@ -1,0 +1,291 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>发起订单</title>
+		<meta name="description" content="List examples">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no">
+
+		<!--begin::Web font -->
+		<script src="../js/Metronic/webfont.js"></script>
+		<script>
+			WebFont.load({
+				google: {
+					"families": ["Poppins:300,400,500,600,700", "Roboto:300,400,500,600,700"]
+				},
+				active: function() {
+					sessionStorage.fonts = true;
+				}
+			});
+		</script>
+
+		<!--end::Web font -->
+
+		<!--begin::Base Styles -->
+		<link href="../css/Metronic/vendors.bundle.css" rel="stylesheet" type="text/css" />
+
+		<!--RTL version:<link href="../../assets/vendors/base/vendors.bundle.rtl.css" rel="stylesheet" type="text/css" />-->
+		<link href="../css/Metronic/style.bundle.css" rel="stylesheet" type="text/css" />
+
+		<!--RTL version:<link href="../../assets/demo/default/base/style.bundle.rtl.css" rel="stylesheet" type="text/css" />-->
+
+		<!--begin::Page Vendors -->
+		<link href="../css/Metronic/fullcalendar.bundle.css" rel="stylesheet" type="text/css" />
+
+		<!--RTL version:<link href="assets/vendors/custom/fullcalendar/fullcalendar.bundle.rtl.css" rel="stylesheet" type="text/css" />-->
+
+		<!--end::Page Vendors -->
+
+		<!--end::Base Styles -->
+		<link rel="shortcut icon" href="../img/logo/favicon.ico" />
+
+		<style>
+			/* .div_nav{
+				width: 100%;
+				height: 80px;
+				padding: 30px 30px;
+				font-size: 30px;
+				line-height: 20px;
+				color: white;
+				text-align: center;
+			} */
+
+			.m-brand.m-brand--skin-dark{
+				background: #389289;
+			}
+
+			.m-demo .m-demo__preview{
+				border: 4px solid #c6eae7;
+			}
+
+			.m-list-search .m-list-search__results .m-list-search__result-category{
+				color: #389289;
+				font-size: 1.5rem;
+			}
+
+			.btn.btn-brand{
+				width: 100%;
+				background-color: #389289;
+				border-color: #389289;
+			}
+
+			.form-control:focus{
+				border: 1px solid #3e9289;
+			}
+
+			.color_green:focus{
+				border: 1px solid #3e9289;
+			}
+			
+			.Icon{
+				width: 18px;
+				height: 18px;
+			}
+
+			/*.bg-light{
+				background-color: #d6ebe9;
+			}*/
+
+			.pagetitle{
+				text-align: center;
+				color:#389289 ;
+			}
+
+		</style>	
+	</head>
+
+	<body>
+
+		<nav class="navbar navbar-expand-lg navbar-light" style="background-color:#d6ebe9;">
+		  <a class="navbar-brand" href="#">拼滴滴</a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+
+		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+		    <ul class="navbar-nav mr-auto">
+		      <li class="nav-item active">
+		        <a class="nav-link" href="HomePage.html">主页<span class="sr-only">(current)</span></a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#">订单</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link disabled" href="gerenzhongxin.html">个人中心</a>
+		      </li>
+		    </ul>
+		    <form class="form-inline my-2 my-lg-0">
+		      <input class="form-control mr-sm-2" type="text" aria-label="搜索">
+		      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">搜索</button>
+		    </form>
+		  </div>
+		</nav>
+
+		<div class="container">
+		
+
+		<!-- <div class="row">
+			<div class="col-lg-12">
+				<div class="div_nav" style="background-color:#389289;">乘客订单</div>
+			</div>
+		</div> -->
+		<div class="row">&nbsp;</div>
+		<!-- <div class="row">
+			<div class="col-lg-10 col-sm-8">
+				<input type="text" class="form-control" placeholder="搜索" style="margin-bottom: 15px;">
+			</div>
+			<div  class="col-lg-2 col-sm-4">
+				<button type="reset" class="btn btn-brand">搜索</button>
+			</div>
+		</div> -->
+		<div class="row">
+			<div class="col-lg-12">
+			<h2><div class="pagetitle">发起拼单</div></h2>
+			</div>
+		</div>
+		<div class="row">&nbsp;</div>
+			
+
+		<div class="row">
+				<div class="col-md-12">
+					<!-- <div class="m-portlet"> --><!-- 发散边框 -->
+						<!-- <div class="m-portlet__body"> -->
+							<!-- <div class="m-section m-section--last"> -->
+								<!-- <div class="m-section__content"> -->
+									<div class="m-demo">
+										<div class="m-demo__preview">
+											<div class="m-list-search"><!-- 控制图像大小的关键样式 -->
+												<div class="m-list-search__results"><!-- 控制图像大小的关键样式 -->
+											
+													<span class="m-list-search__result-category text-center">
+														时间
+													</span>
+														<!-- <div class="row"> -->
+															<div class="form-group m-form__group row">
+																<div class="col-lg-12 col-md-12 col-sm-12">
+																	<!-- <label class="col-form-label col-lg-3 col-sm-12">Enable Helper Buttons</label>
+ -->
+																	<div class="input-group date">
+																		<input type="text" class="form-control m-input" readonly placeholder="出发日期" id="m_datepicker_2" />
+																	<div class="input-group-append">
+																		<span class="input-group-text">
+																			  
+																			<img src="../img/Icon/日历.png" class="Icon">
+																		</span>
+																	</div>
+																	</div>
+																	</div>
+																</div>
+															</div>
+
+<!-- 															<div class="form-group m-form__group row">
+										<label class="col-form-label col-lg-3 col-sm-12">Enable Helper Buttons</label>
+										<div class="col-lg-4 col-md-9 col-sm-12">
+											<div class="input-group date">
+												<input type="text" class="form-control m-input" readonly="" value="05/20/2017" id="m_datepicker_3">
+												<div class="input-group-append">
+													<span class="input-group-text">
+														<i class="la la-calendar"></i>
+													</span>
+												</div>
+											</div>
+												
+										</div>
+									</div> -->
+															
+															<div class="form-group m-form__group row has-success">
+																<div class="col-lg-12 col-md-12 col-sm-12">
+																	<div class='input-group timepicker' id='m_timepicker_1_validate'>
+																		<input type='text' class="form-control m-input" readonly placeholder="出发时间" type="text" />
+																		<div class="input-group-append">
+																			<span class="input-group-text">
+																				<!-- <i class="la la-clock-o"></i> -->
+																				<img src="../img/Icon/历史.png" class="Icon">
+																			</span>
+																		</div>
+																	</div>
+																
+																</div>
+															</div>
+
+															<div class="form-group m-form__group row">
+																<div class="col-lg-12 col-md-12 col-sm-12">
+																	<div class="input-group date">
+																		<input type="text" class="form-control m-input" readonly placeholder="拼单截止时间" id="m_datetimepicker_2" />
+																		<div class="input-group-append">
+																			<span class="input-group-text">
+																				<!-- <i class="la la-calendar-check-o glyphicon-th"></i> -->
+																				<img src="../img/Icon/日历.png" class="Icon">
+																			</span>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														<!-- </div> -->
+
+													<span class="m-list-search__result-category text-center">
+														地点
+													</span>
+														<div class="row">
+															<div class="col-lg-12">
+																<input type="text" class="form-control" placeholder="出发地" style="margin-bottom: 13px;">
+															</div>
+														</div>
+														<div class="row">
+															<div class="col-lg-12">
+																<input type="text" class="form-control" placeholder="目的地" style="margin-bottom: 13px;">
+															</div>
+														</div>
+
+													<span class="m-list-search__result-category text-center">
+														还需人数
+													</span>
+														<div class="row" >
+
+															<select class="form-control" style="margin:0px 15px 13px 15px;">
+															  <option>1</option>
+															  <option>2</option>
+															  <option>3</option>
+															</select>
+														</div>
+
+													<span class="m-list-search__result-category text-center">
+														已有大件行李数
+													</span>
+														<div class="row" >
+															<select class="form-control" style="margin:0px 15px 13px 15px;">
+															  <option>0</option>
+															  <option>1</option>
+															  <option>2</option>
+															  <option>3</option>
+															</select>
+														</div>
+
+													<span class="m-list-search__result-category text-center">
+														<button type="reset" class="btn btn-brand">确认发起</button>
+													</span>
+
+												</div>
+											</div>
+										</div>
+									</div>
+								<!-- </div>	 -->
+							<!-- </div> -->
+						<!-- </div> -->
+					<!-- </div> -->
+				</div>
+
+				
+
+			</div>
+		<script src="../js/Metronic/vendors.bundle.js" type="text/javascript"></script>
+		<script src="../js/Metronic/scripts.bundle.js" type="text/javascript"></script>
+		<script src="../js/Metronic/bootstrap-datepicker.js" type="text/javascript"></script>
+		<script src="../js/Metronic/bootstrap-timepicker.js" type="text/javascript"></script>
+		<script src="../js/Metronic/bootstrap-datetimepicker.js" type="text/javascript"></script>
+		<script src="../js/Metronic/fullcalendar.bundle.js" type="text/javascript"></script>
+		<script src="../js/Metronic/dashboard.js" type="text/javascript"></script>
+		
+	</body>

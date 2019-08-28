@@ -1,0 +1,149 @@
+body{
+    background-color:#f2f2f2;
+    height: 100%;
+}
+.icon {
+    width: 40px;
+    height:40px ;
+    vertical-align: 0em;
+    fill: currentColor;
+    overflow: hidden;
+    line-height: 46px;
+}
+.row1{
+    background-color: #2aa094;
+    height: 50px;
+}
+#icon-tubiaozhizuomoban path {
+    fill:#bedebc;
+}
+#icon-tianjia path {
+    fill: #fade62;
+}
+.row2{
+    margin-top: 5px;
+}
+.mar{
+    padding: 10px;
+}
+.tab1{
+    width: 50%;
+}
+@media(min-width: 62em){
+    .fixdibu{
+        display: none;
+    }
+    .phonetop{
+        display: none;
+    }
+}
+.fixdibu{
+    background-color: white;
+    height: 46px;
+}
+.div5{
+    width: 19.9%;
+    float: left;
+}
+.mar1{
+    padding: 0px;
+    margin-top: 2px;
+}
+.row2-1{
+    background-image: url("../images/beijing3.jpg");
+    height: 80px;
+}
+.zis{
+    font-size:14px;
+    line-height: 80px;
+}
+.img{
+    width:60px;
+    height:60px;
+    margin-top: 5px;
+}
+.icon-bianji{
+    width: 30px;
+    height: 30px;
+    margin-top: 5px;
+}
+.row3{
+    height: 55px;
+}
+.lh{
+    line-height: 76px;
+}
+.icon-msnui-task-complete{
+    margin-top: 5px;
+}
+.icon-jihuanengli{
+    margin-top: 5px;
+}
+.circle{
+    width:40px;
+    height:40px;
+    border-radius:20px;
+    border:none;
+    float: left;
+    margin-top: 5px;
+    background-color: #e1f5f1;
+}
+.row4{
+    height: 50px;
+}
+.zib{
+    line-height: 50px;
+}
+.icon-jifen{
+    width: 20px;
+    height: 20px;
+    line-height: 50px;
+}
+.con1{
+    padding-left:0px;padding-right: 0px;padding-bottom: 60px;
+}
+.r2{
+    margin-top: 50px;
+}
+.pad0{
+    padding: 0px;
+}
+.padl8{
+    padding-left: 8px;
+}
+.marlr{
+    margin-left: -15px;margin-right: -15px;
+}
+.zi{
+            line-height: 56px;
+            z-index: 10000;
+            margin-left:auto;
+            margin-right: auto;
+        }
+        .nav0 li a:hover {
+            background:#63ab94;
+        }
+        .nav0 li a:active {
+            background:#63ab94;
+        }
+        .li0{
+            padding-right: 0px;
+            padding-left: 2px;
+        }
+        .ul0{
+            border: none;
+        }
+
+        @media(min-width: 62em){
+            .fixdibu{
+                display: none;
+            }
+            .phonetop{
+                display: none;
+            }
+        }
+        @media (max-width: 62em) {
+            .nav0{
+                margin-top: -64px;
+            }
+        }

@@ -1,0 +1,197 @@
+body {
+    height:100%;
+    width: 100%;
+     background-color: #f2f2f2;
+}
+.edit{
+	position: relative;
+	right: 10%;
+	float: right;
+}
+.line{
+	position: relative;
+	left: 70px;
+	float: left;
+}
+.blackline{
+	height:650px;
+	border-color:000000;
+	border-left-style:solid;
+	border-width:1px;
+	float: left;
+}
+.firststation{
+	 margin-top: 200px;
+	 margin-left: 55px;
+}
+.addrecord{
+	height: 60px;
+	width:70%;
+	border-radius:15px;
+	background-color:#2aa094;
+}
+.secondstation{
+	margin-top: 50px;
+	margin-left: 55px;
+}
+.firstrecord{
+	height: 400px;
+	width:70%;
+	border-radius:15px;
+	background-color:gainsboro;
+}
+.thirdstation{
+	margin-top: 50px;
+	margin-left: 55px;
+}
+.secondrecord{
+	height: 60px;
+	width:70%;
+	border-radius:15px;
+	background-color:gainsboro;
+}
+.more{
+	text-align: center;
+	margin-bottom: 100px;
+	margin-top: 60px;
+}
+.icon1 {
+    width: 20px; height:20px ;
+    vertical-align: 0em;
+    fill: currentColor;
+    overflow: hidden;
+}
+.row1{
+    background-color: #2aa094;
+    height: 50px;
+}
+.icon-sousuo{
+    float: right;
+    margin-top: -40px;
+}
+.kapian{
+    background-color: white;
+    padding: 0px;
+    margin-top: 5px;
+}
+.row3{
+    margin-top: 5px;
+}
+.row4{
+    margin-top: 5px;
+}
+.mar{
+    padding: 10px;
+}
+.btn2{
+    margin-right: 15px;
+    margin-bottom: 5px;
+}
+.sound{
+	width:100px;
+	height:30px;
+}
+.space{
+	line-height: 50px;
+}
+.photo{
+	height: 30px;
+	width: 30px;
+}
+.sentence{
+	margin-left:10%;
+}
+.img1{
+	position:relative;
+    overflow:hidden;
+    height:300px;
+}
+.img2{
+	width:100%; /*图片宽度*/
+    position:absolute;
+    left:50%;
+    margin-left:-50%;
+}
+.icon {
+    width: 40px;
+    height: 40px;
+    vertical-align: 0em;
+    fill: currentColor;
+    overflow: hidden;
+    line-height: 46px;
+}
+@media(min-width: 62em) {
+    .fixdibu {
+        display: none;
+    }
+}
+.fixdibu {
+    background-color: white;
+    height: 46px;
+}
+.div5 {
+    width: 19.9%;
+    float: left;
+}
+#icon-tianjia path {
+    fill: #fade62;
+}
+#icon-tubiaozhizuomoban path {
+    fill:#bedebc;
+}
+#icon-tianjia path {
+    fill: #fade62;
+}
+.icon-tianjia{
+    width: 40px;
+    height: 40px;;
+}
+.icon-icon-test{
+    width: 50px;
+    height: 50px;
+    margin-top: 70px;
+}
+.tel0{
+    font-size: 20px;
+    color: white;
+    margin-top: 20px;
+}
+.dibu1{
+    border-bottom: solid 1px;
+}
+a{
+    color: black;
+}
+ .zi{
+            line-height: 56px;
+            z-index: 10000;
+            margin-left:auto;
+            margin-right: auto;
+        }
+        .nav0 li a:hover {
+            background:#63ab94;
+        }
+        .nav0 li a:active {
+            background:#63ab94;
+        }
+        .li0{
+            padding-right: 0px;
+            padding-left: 2px;
+        }
+        .ul0{
+            border: none;
+        }
+
+        @media(min-width: 62em){
+            .fixdibu{
+                display: none;
+            }
+            .phonetop{
+                display: none;
+            }
+        }
+        @media (max-width: 62em) {
+            .nav0{
+                margin-top: -64px;
+            }
+        }

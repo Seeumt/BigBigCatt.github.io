@@ -1,0 +1,94 @@
+body {
+    height:100%;
+    background-color: #f2f2f2;
+}
+.selector-for-some-widget {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+.icon {
+    width: 20px;
+    height: 20px;
+    vertical-align:0px;
+    fill: currentColor;
+    overflow: hidden;
+}
+hr{
+    width: auto;
+}
+.dingduan{
+    background-color:#2aa094;
+    height:80%;
+}
+.dibu{
+    height: auto;
+}
+#icon-bi path {
+    fill: white;
+}
+#icon-tianjia path {
+    fill: #fade62;
+}
+.icon-tianjia{
+    width: 40px;
+    height: 40px;;
+}
+.icon-bi{
+    margin-top: 20px;
+    margin-right: 20px;
+    float: right;
+}
+.icon-icon-test{
+    width: 90px;
+    height: 90px;
+    margin-top: 60px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.tel0{
+    font-size: 20px;
+    color: white;
+}
+.dibu1{
+    border-bottom: solid 1px;
+}
+a{
+    color: black;
+}
+.row1{
+    background-color: #2aa094;
+    height: 50px;
+}
+.mar1{
+    padding: 10px;
+}
+@media(min-width: 62em){
+    .fixdibu{
+        display: none;
+    }
+    .phonetop{
+        display: none;
+    }
+}
+.fixdibu{
+    background-color: white;
+    height: 46px;
+}
+.p60{
+    padding-bottom: 60px
+}
+.pb60{
+    padding-bottom: 60px
+}
+.p0{
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 60px
+}
+.mar2{
+    margin-top: 2px
+}
+
+
+

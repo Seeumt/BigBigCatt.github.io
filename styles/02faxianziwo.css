@@ -1,0 +1,173 @@
+.selector-for-some-widget {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+body{
+    background-color:#f2f2f2;
+    width: auto;
+}
+.pagepad{
+    padding-bottom: 60px;
+}
+.col80{
+    padding: 0px;
+}
+.icon {
+    width: 40px;
+    height: 40px;
+    vertical-align: 0em;
+    fill: currentColor;
+    overflow: hidden;
+    line-height: 46px;
+}
+.icon-icon-test{
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+}
+.btn1{
+    float: right;
+}
+.d1{
+    background-color: white;
+    height: 120px;
+}
+#icon-zhiye path {
+    fill: #289fde;
+}
+#icon-faxian path {
+    fill: #209cdd;
+}
+#icon-tianjia path {
+    fill: #fade62;
+}
+#icon-tubiaozhizuomoban path {
+    fill: black;
+}
+#icon-fenxianglicaichengjiu path {
+    fill:  black;
+}
+#icon-wo path {
+    fill:  black;
+}
+.icon-tianjia{
+    width: 40px;
+    height: 40px;;
+}
+.icon--wenjuan{
+    width: 50px;
+    height: 50px;
+}
+.icon-zhiye{
+    width: 50px;
+    height: 50px;
+}
+.icon-zhiyeyixiang--{
+    width: 50px;
+    height: 50px;
+}
+.row1{
+    background-color: #2aa094;
+    height: 50px;
+}
+.row4{
+    margin-top: 10px;
+
+}
+.row2-1{
+    margin-bottom: 10px;
+    padding:10px;
+}
+.row3-1{
+    margin-bottom: 10px;
+    padding: 0px;
+}
+.row3{
+    margin-top: 0px;
+    padding: 20px;
+}
+.row2{
+    margin-top: 50px;
+}
+.fixdibu{
+    background-color: white;
+    height: 46px;
+}
+.div5{
+    width: 19.9%;
+    float: left;
+}
+.set{
+    display: inline-block;
+    margin-right: 15px;
+    margin-bottom: 5px;
+    background-color:white;
+    border:1px solid #2aa094 ;
+    border-radius: 20px;
+    padding: 4px;
+    color: black;
+}
+.set1{
+    display: inline-block;
+    margin-right: 15px;
+    margin-bottom: 5px;
+    background-color:#e1f5f1;
+    color:black;
+    border:1px solid #4f9a90 ;
+    border-radius: 20px;
+    padding: 4px;
+}
+.set:hover{
+    background-color:#5ea399 ;
+}
+.set:active{
+    background-color:#e1f5f1 ;
+}
+.set:visited{
+    background-color:#e1f5f1 ;
+}
+.btn-info{
+    background-color:#2aa094 ;
+}
+.btn-info:hover{
+    background-color:#2aa094 ;
+}
+.zi{
+    line-height: 56px;
+    z-index: 10000;
+    margin-left:auto;
+    margin-right: auto;
+}
+.nav0 li a:hover {
+    background:#63ab94;
+}
+.nav0 li a:active {
+    background:#63ab94;
+}
+.li0{
+    padding-right: 0px;
+    padding-left: 2px;
+}
+.ul0{
+    border: none;
+}
+
+@media(min-width: 62em){
+    .fixdibu{
+        display: none;
+    }
+    .phonetop{
+        display: none;
+    }
+}
+@media (max-width: 62em) {
+    .nav0{
+        margin-top: -64px;
+    }
+}
+.bg{
+    background-color: #2aa094;
+}
+
+

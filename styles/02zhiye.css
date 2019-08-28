@@ -1,0 +1,96 @@
+body{
+    background-color:#f2f2f2;
+    height: 100%;
+}
+.icon {
+    width: 20px;
+    height:20px ;
+    vertical-align: 0em;
+    fill: currentColor;
+    overflow: hidden;
+    line-height: 46px;
+}
+.row1{
+    background-color: #2aa094;
+    height: 50px;
+}
+.zi{
+    line-height: 50px;
+}
+.icon-sousuo{
+    float: right;
+    margin-top: -40px;
+}
+#icon-tianjia path {
+    fill: #fade62;
+}
+.icon-tianjia{
+    width: 40px;
+    height: 40px;
+}
+.icon-faxian{
+    width: 40px;
+    height: 40px;
+}
+.icon-tubiaozhizuomoban{
+    width: 40px;
+    height: 40px;
+}
+.icon-fenxianglicaichengjiu{
+    width: 40px;
+    height: 40px;
+}
+.icon-wo{
+    width: 40px;
+    height: 40px;
+}
+#icon-faxian path {
+    fill: #209cdd;
+}
+.kapian{
+    background-color: white;
+    padding: 0px;
+    margin-top: 5px;
+}
+.row3{
+    margin-top: 5px;
+}
+.row4{
+    margin-top: 5px;
+}
+.mar{
+    padding: 10px;
+}
+.btn2{
+    margin-right: 15px;
+    margin-bottom: 5px;
+}
+.btn-info{
+    background-color:white;
+    margin-bottom: 5px;
+    color: black;
+    border-color:#5ea399 ;
+    border-radius: 20px;
+}
+.tab1{
+    width: 50%;
+}
+.tab2{
+    width: 50%;
+}
+@media(min-width: 62em){
+    .fixdibu{
+        display: none;
+    }
+    .phonetop{
+        display: none;
+    }
+}
+.fixdibu{
+    background-color: white;
+    height: 46px;
+}
+.div5{
+    width: 19.9%;
+    float: left;
+}
